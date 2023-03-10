@@ -50,7 +50,7 @@ export const MyAcheivments = [
         title: `COURSERA`,
         brief: `I had the pleasure to finish a few Google certifications on Coursera to enhance my knowledge and Skillset.`,
         points: [`Introduction to Git and GitHub`, `Foundations of Project Management`, `Project Initiation: Starting a Successful Project`, `Foundations of User Experience (UX) Design`],
-        gradient: ' bg-gradient-to-br from-skin to-yellow-light'
+        gradient: ' bg-gradient-to-br from-skin to-yellow-light '
     },
     {
         title: `PIAIC QUARTER 1`,

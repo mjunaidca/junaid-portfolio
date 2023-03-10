@@ -7,7 +7,7 @@ const Acheivments = () => {
     return (
         <div>
             <Wrapper>
-                <Heading2 text={'MY PROJECTS -'} />
+                <Heading2 text={'MY ACHEIVMENTS -'} />
                 <div className='flex md:flex-row flex-col gap-y-8 sm:gap-x-8 lg:gap-x-16 px-4 sm:px-0 '>
                     {MyAcheivments.map((el) => (
                         <div key='el.title' className='basis-4/12' >
