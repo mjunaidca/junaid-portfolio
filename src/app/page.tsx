@@ -1,8 +1,9 @@
+import Portfolio from '../views/home'
 
 export default function Home() {
   return (
     <main>
-      <h1>Icons</h1>
+      <Portfolio />
     </main>
   )
 }

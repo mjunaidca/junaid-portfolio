@@ -7,6 +7,7 @@ export const HeroData = [
         details: 'Engineering your business stories and ideas creatively.'
     },
     {
+        call: '↓',
         head: '<coder>',
         details: 'I am a creative Full stack developer who writes clean and efficient code'
     }

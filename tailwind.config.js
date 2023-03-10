@@ -7,8 +7,7 @@ module.exports = {
       "grey-dark": "#505050",
       "grey-light": "#757575",
     },
-    fontFamily: { sans: [`Encode Sans Semi Expanded`] },
-
+    fontFamily: { mjs: ["Encode Sans Semi Expanded", "sans-serif"] },
     extend: {},
   },
   plugins: [],
