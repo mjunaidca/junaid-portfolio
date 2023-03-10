@@ -16,12 +16,10 @@ export const HeroData = [
 export const AboutMe = [
     {
         focusText: 'I am a Creative Developer who Engineer ideas and businesses Stories based in Lahore.',
-        details: 'Since October 2022 I am learning development with Sir Zia and PIAIC. When I am not doing development you will find me in AI space experimenting with different AI models or crafting business stories.'
+        details: 'Since October 2022 I am learning development with Sir Zia and PIAIC. When I am not doing development you will find me in AI space experimenting with different AI models or crafting business stories.',
+        Random: 'Random Facts',
+        RandomDetails: 'In 2021 I worked with Infento (Netherlands) to manage their influencer marketing campaign. While studying charted accountancy I am slightly addicted to change and a content creator.'
     },
-    {
-        focusText: 'Random Facts',
-        details: 'In 2021 I worked with Infento (Netherlands) to manage their influencer marketing campaign. While studying charted accountancy I am slightly addicted to change and a content creator.'
-    }
 ]
 export const MyProjects = [
     {
