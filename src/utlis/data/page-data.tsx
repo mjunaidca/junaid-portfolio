@@ -50,16 +50,19 @@ export const MyAcheivments = [
         title: `COURSERA`,
         brief: `I had the pleasure to finish a few Google certifications on Coursera to enhance my knowledge and Skillset.`,
         points: [`Introduction to Git and GitHub`, `Foundations of Project Management`, `Project Initiation: Starting a Successful Project`, `Foundations of User Experience (UX) Design`],
+        gradient: ' bg-gradient-to-br from-skin to-yellow-light'
     },
     {
         title: `PIAIC QUARTER 1`,
         brief: `I started my development career with PIAIC in October 2022. Since then I have learned:`,
         points: [`HTML, CSS, Git & Github`, `Web 3.0 & Metaverse Theory`, 'Typescript Fundamentals', 'Object-Oriented TypeScript Programming', `Next.js 13 Web Dev`, `Chakra UI & Tailwind CSS`],
+        gradient: ' bg-gradient-to-br from-parrot to-grey-white'
     },
     {
         title: `DATACAMP`,
         brief: `During Quarter 1 break assignments with DataCamp I have completed the certification`,
         points: [`Introduction to Git`],
+        gradient: ' bg-gradient-to-br from-royalblue to-grey-white'
     }
 ]
 
