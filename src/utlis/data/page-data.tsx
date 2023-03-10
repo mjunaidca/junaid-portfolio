@@ -2,14 +2,14 @@ import { Twitter, GitHub, FaceBook, LinkedIn } from "@/assets/icons/socialmedia"
 
 export const HeroData = [
     {
-        call: `HELLO  THERE 👋, I'M`,
+        call: `HELLO THERE 👋, I'M`,
         head: 'Junaid',
         details: 'Engineering your business stories and ideas creatively.'
     },
     {
-        call: '↓',
+        call: '👇',
         head: '<coder>',
-        details: 'I am a creative Full stack developer who writes clean and efficient code'
+        details: `I am a creative Full stack developer who writes clean and efficient code.`
     }
 ]
 
