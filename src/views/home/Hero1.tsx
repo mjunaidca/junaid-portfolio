@@ -1,8 +1,10 @@
 import Wrapper from "@/components/Wrapper"
 import { HeroData } from "@/utlis/data/page-data"
-import PrimarayAvatar from "@/assets/images/avatar1.png"
 import Image from "next/image"
 import HeroDetails from "@/components/Hero"
+import { BsUsbPlug } from "react-icons/bs";
+import PrimarayAvatar from "@/assets/images/avatar1.png"
+import DownArrow from "@/assets/icons/down.png"
 
 
 
@@ -18,6 +20,11 @@ export const Hero1 = () => {
                 </div>
                 <div className="hidden sm:block sm:basis-4/12">
                     <HeroDetails call={HeroData[1].call} head={HeroData[1].head} details={HeroData[1].details} />
+                </div>
+            </div>
+            <div className="flex justify-center  sm:pt-4 md:pt-8 animate-bounce">
+                <div className=" w-6 sm:w-10 xl:w-12">
+                    <Image src={DownArrow} alt={'Down Arrow'} />
                 </div>
             </div>
         </Wrapper >

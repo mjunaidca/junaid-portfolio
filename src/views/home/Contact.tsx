@@ -6,6 +6,7 @@ import { ContactME } from '@/utlis/data/page-data';
 import MyVector from '../../assets/images/Vector.png'
 import Quote from '../../assets/images/Quote.png'
 import { Twitter, GitHub, FaceBook, LinkedIn } from "@/assets/icons/socialmedia"
+import Link from 'next/link';
 
 
 
@@ -23,22 +24,33 @@ const Contact = () => {
                                 <Image src={MyVector} alt={'MyVector'} />
                             </div>
                             <div className='sm:basis-4/12 basis-5/6 flex flex-col py-3 items-start justify-center gap-3 px-6'>
-                                <div className='font-semibold text-xl md:text-2xl text-grey'>
+                                <div className='font-semibold text-lg md:text-xl lg:text-2xl text-grey'>
                                     {ContactME.name}
                                 </div>
-                                <div className='font-semibold text-lg md:text-xl text-grey-dark'>
+                                <div className='font-semibold text-sm md:text-lg lg:text-xl text-grey-dark'>
                                     {ContactME.email}
                                 </div>
-                                <div className='font-semibold text-md md:text-lg text-grey-light pt-3'>
+                                <div className='font-normal lg:text-lg text-grey-light pt-3'>
                                     {ContactME.number}
                                 </div>
                                 <div className='flex flex-row gap-5 py-2 self-center'>
-                                    <Twitter /> <GitHub /> <FaceBook /> <LinkedIn />
+                                    <Link href={'https://twitter.com/Muhamma76571391'}>
+                                        <Twitter />
+                                    </Link>
+                                    <Link href={'https://github.com/mjunaidca'}>
+                                        <GitHub />
+                                    </Link>
+                                    <Link href={'https://www.facebook.com/mjunaid.ca/'}>
+                                        <FaceBook />
+                                    </Link>
+                                    <Link href={'https://www.linkedin.com/in/mrjunaid-ca1/'}>
+                                        <LinkedIn />
+                                    </Link>
                                 </div>
 
                             </div>
                             <div className='hidden md:block basis-4/12 flex-col items-baseline my-auto justify-between gap-2'>
-                                <div>
+                                <div className='w-6 lg:w-8'>
                                     <Image src={Quote} alt={'Quote'} />
                                 </div>
                                 <div className='px-3 font-semibold text-md lg:text-lg xl:text-xl text-grey-dark'>
