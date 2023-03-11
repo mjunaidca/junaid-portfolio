@@ -61,8 +61,8 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div className='font-semibold text-base lg:text-xl grey md:pt-14 md:pb-5 sm:pt-72 sm:mb-3 pt-96 mt-32 mb-6'>
-                    CC 2022 Muhammad Junaid Shaukat
+                <div className='font-semibold text-base lg:text-xl text-grey-dark md:pt-14 md:pb-5 sm:pt-72 sm:mb-3 pt-96 mt-32 mb-6'>
+                    CC 2023 Muhammad Junaid Shaukat
                 </div>
             </Wrapper>
         </div>
