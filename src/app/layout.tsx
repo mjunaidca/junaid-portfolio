@@ -9,7 +9,7 @@ const sans = Encode_Sans_Semi_Expanded({
 export const metadata = {
   title: 'MJS Portfolio',
   description: 'Muhammad Junaid Shaukat Creative developer portfolio',
-  icon: { url: '/favicon.png' },
+  icon: '/icon1.png',
 }
 
 export default function RootLayout({
