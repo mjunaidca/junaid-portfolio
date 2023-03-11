@@ -7,7 +7,7 @@ export const HeroData = [
         details: 'Engineering your business stories and ideas creatively.'
     },
     {
-        call: '👇',
+        call: 'C R E A T I V E  👇',
         head: '<coder>',
         details: `I am a creative Full stack developer who writes clean and efficient code.`
     }
@@ -18,7 +18,7 @@ export const AboutMe = [
         focusText: 'I am a Creative Developer who Engineer ideas and businesses Stories based in Lahore.',
         details: 'Since October 2022 I am learning development with Sir Zia and PIAIC. When I am not doing development you will find me in AI space experimenting with different AI models or crafting business stories.',
         Random: 'Random Facts',
-        RandomDetails: 'In 2021 I worked with Infento (Netherlands) to manage their influencer marketing campaign. While studying charted accountancy I am slightly addicted to change and a content creator.'
+        RandomDetails: 'In 2021 I managed Infento (Netherlands) influencer marketing campaign. While studying charted accountancy I am slightly addicted to change. I may not be the smartest guy but a fast learner engineering ideas on the latest art of tech.'
     },
 ]
 export const MyProjects = [

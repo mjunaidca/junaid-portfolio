@@ -11,7 +11,7 @@ import DownArrow from "@/assets/icons/down.png"
 export const Hero1 = () => {
     return (
         <Wrapper>
-            <div className="flex ">
+            <div className="flex  my-5 sm:my-10">
                 <div className="basis-6/12 sm:basis-4/12">
                     <HeroDetails call={HeroData[0].call} head={HeroData[0].head} details={HeroData[0].details} />
                 </div>
