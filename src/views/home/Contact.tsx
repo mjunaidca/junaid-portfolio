@@ -3,7 +3,7 @@ import Wrapper from '@/components/Wrapper'
 import Image from 'next/image';
 import MapImage from '../../assets/images/map.png'
 import { ContactME } from '@/utlis/data/page-data';
-import MyVector from '../../assets/images/vector.png'
+import MyVector from '../../assets/images/Vector.png'
 import Quote from '../../assets/images/Quote.png'
 import { Twitter, GitHub, FaceBook, LinkedIn } from "@/assets/icons/socialmedia"
 
@@ -15,7 +15,7 @@ const Contact = () => {
             <Wrapper>
                 <Heading2 text={`LET'S TALK -`} />
 
-                <div className='flex justify-center'>
+                <div className='flex justify-center px-4 sm:px-0 '>
                     <Image src={MapImage} alt="Maps" />
                     <div className="absolute base:w-auto max-w-sm sm:max-w-lg md:max-w-2xl lg:max-w-3xl xl:max-w-4xl md:w-full mx-8 md:mx-14 mt-10 max-h-112 md:h-full md:max-h-56 lg:max-h-72 bg-gradient-to-br from-lime to-apricoat shadow-md">
                         <div className='flex flex-col md:flex-row md:h-full'>
@@ -49,7 +49,7 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div className='font-semibold text-base lg:text-xl grey md:pt-14 md:pb-5 sm:pt-72 sm:mb-3 pt-96 mt-20 mb-6'>
+                <div className='font-semibold text-base lg:text-xl grey md:pt-14 md:pb-5 sm:pt-72 sm:mb-3 pt-96 mt-32 mb-6'>
                     CC 2022 Muhammad Junaid Shaukat
                 </div>
             </Wrapper>
