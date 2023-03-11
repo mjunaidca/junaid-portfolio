@@ -60,8 +60,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-
-                <div className='font-semibold text-base lg:text-xl text-grey-dark md:pt-14 md:pb-5 sm:pt-72 sm:mb-3 pt-96 mt-32 mb-6'>
+                <div className='font-semibold text-base lg:text-xl text-grey-dark pt-96 mt-24 sm:mt-0 md:pt-16 lg:pt-18 pb-5 md:pb-5 lg:pb-7 '>
                     CC 2023 Muhammad Junaid Shaukat
                 </div>
             </Wrapper>

@@ -1,3 +1,4 @@
+import Wrapper from '@/components/Wrapper'
 import About from './About'
 import Acheivments from './Acheivments'
 import Contact from './Contact'
