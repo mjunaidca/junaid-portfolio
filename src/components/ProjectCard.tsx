@@ -12,29 +12,31 @@ interface Props {
 const ProjectCard = ({ title, brief, points, remark, gradient }: Props) => {
 
     return (
-        <div className={`flex px-3 py-2 flex-col ${gradient} shadow-md h-96 justify-evenly`}>
+        <div className="transition duration-1000 hover:scale-110 hover:box-shadow-lg cursor-pointer">
 
-            <div className="flex font-bold text-2xl sm:text-2xl md:text-2xl 2xl:text-3xl justify-between">
-                {title} <GitHub />
-            </div>
+            <div className={`flex px-3 py-2 flex-col ${gradient} shadow-md h-96 justify-evenly`}>
 
-            <div className="text-lg md:text-base lg:text-lg text-grey-dark pt-2 ">
-                {brief}
-            </div>
-            <ul className="list-disc list-inside text-lg md:text-base lg:text-lg text-grey-dark underline pt-2">
-                {
-                    points.map((el: string) => (
-                        <li key='el'>{el}</li>
-                    ))
-                }
-            </ul>
-            <div className="text-lg md:text-base lg:text-lg text-grey-dark  pt-2 ">
-                {remark}
-            </div>
-            <div className="pt-2 flex justify-center gap-5  sm:gap-8 md:gap-4">
-                <TypeScript /> <React /> <TailWindCss /> <NextJs /> <Figma />
-            </div>
+                <div className="flex font-bold text-2xl sm:text-2xl md:text-2xl 2xl:text-3xl justify-between">
+                    {title} <GitHub />
+                </div>
 
+                <div className="text-lg md:text-base lg:text-lg text-grey-dark pt-2 ">
+                    {brief}
+                </div>
+                <ul className="list-disc list-inside text-lg md:text-base lg:text-lg text-grey-dark underline pt-2">
+                    {
+                        points.map((el: string) => (
+                            <li key='el'>{el}</li>
+                        ))
+                    }
+                </ul>
+                <div className="text-lg md:text-base lg:text-lg text-grey-dark  pt-2 ">
+                    {remark}
+                </div>
+                <div className="pt-2 flex justify-center gap-5  sm:gap-8 md:gap-4">
+                    <TypeScript /> <React /> <TailWindCss /> <NextJs /> <Figma />
+                </div>
+            </div>
         </div>
     );
 }
