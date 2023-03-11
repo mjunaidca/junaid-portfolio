@@ -73,25 +73,25 @@ export const ContactME = {
     socialMedia: [
         {
             label: `twitter`,
-            Icon: `${Twitter}`,
+            Icon: `<Twitter />`,
             link: `https://twitter.com/Muhamma76571391`
         },
         {
             label: `github`,
-            Icon: `${GitHub}`,
+            Icon: `<GitHub />`,
             link: `https://github.com/mjunaidca`
         },
         {
             label: `facebook`,
-            Icon: `${FaceBook}`,
+            Icon: `<FaceBook />`,
             link: `https://www.facebook.com/mjunaid.ca/`
         },
         {
             label: `linkedin`,
-            Icon: `${LinkedIn}`,
+            Icon: `<LinkedIn />`,
             link: `https://www.linkedin.com/in/mrjunaid-ca1/`
         }
     ],
-    Quotes: [`It's about bringing the ideas to life`, `Every businesses and idea have a great story to share`, `An efficient developer can engineer those stories creatively`]
+    Quotes: [`Every businesses and idea have a great story to share creatively`]
 
 }

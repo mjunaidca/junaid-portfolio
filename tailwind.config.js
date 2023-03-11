@@ -16,6 +16,8 @@ module.exports = {
       skin: "#FCECDC",
       parrot: "#E8F6CA",
       royalblue: "#E1EDFF",
+      lime: "#FBEEDB",
+      apricoat: "#FDC0AC",
     },
     fontFamily: { mjs: ["Encode Sans Semi Expanded", "sans-serif"] },
     extend: {},
