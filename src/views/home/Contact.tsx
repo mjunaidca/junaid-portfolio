@@ -5,13 +5,6 @@ import MapImage from "../../assets/images/map.png";
 import { ContactME } from "@/utlis/data/page-data";
 import MyVector from "../../assets/images/Vector.png";
 import Quote from "../../assets/images/Quote.png";
-import {
-  Twitter,
-  GitHub,
-  FaceBook,
-  LinkedIn,
-} from "@/assets/icons/socialmedia";
-import Link from "next/link";
 import IconText from "@/components/IconText";
 
 const Contact = () => {

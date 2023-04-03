@@ -3,6 +3,10 @@ const nextConfig = {
   experimental: {
     appDir: true,
   },
-}
+  env: {
+    CONTENTFUL_SPACE_ID: "wzah69rk6gx3",
+    CONTENTFUL_DELIVERY_API: "IM2vGuJVhCg0cqLz4bnrVCKi5yV2639z83pHdw6-f-4",
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

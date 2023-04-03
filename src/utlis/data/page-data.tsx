@@ -29,42 +29,42 @@ export const AboutMe = [
       "In 2021 I managed Infento (Netherlands) influencer marketing campaign. While studying charted accountancy I am slightly addicted to change. I may not be the smartest guy but a fast learner engineering ideas on the latest art of tech.",
   },
 ];
-export const MyProjects = [
-  {
-    title: `TypeScript and Node.js Projects`,
-    brief: `Developed 11 different typescript and NodeJS projects including:`,
-    points: [
-      `Student Management System`,
-      `ATM & OOP Concepts`,
-      `Calculator & To Do APP`,
-      `Word Counter & Quiz`,
-    ],
-    // remark: 'Try them on your CLI.',
-    gradient: " bg-gradient-to-br from-blue-light to-grey-white",
-    GithubRepo: "https://github.com/mjunaidca/TypeScript-Node-Projects",
-  },
-  {
-    title: `Panavere DAO Site & Styling Projects`,
-    brief: `Developed Panaverse DAO website design in Figma, & created frontend in:`,
-    points: [`Chakra UI + NextJS 13`, `Tailwind CSS + NextJS`],
-    remark: "For practice created NextJS styling projects.",
-    gradient: " bg-gradient-to-br from-purple-light to-pink-white",
-    GithubRepo: "https://github.com/mjunaidca/PanaFig-1.0",
-  },
-  {
-    title: `AI Image Generator`,
-    brief: `Development of an AI Image Generator Runtime App with:`,
-    points: [
-      `NextJS 13 framwork`,
-      `Tailwind CSS`,
-      `Headless UI`,
-      `Open AI API`,
-    ],
-    remark: "Developed together with Muhammad Ahmad",
-    gradient: " bg-gradient-to-br from-pink-light to-yellow-light",
-    GithubRepo: "https://github.com/mjunaidca/image-ai",
-  },
-];
+// export const MyProjects = [
+//   {
+//     title: `TypeScript and Node.js Projects`,
+//     brief: `Developed 11 different typescript and NodeJS projects including:`,
+//     points: [
+//       `Student Management System`,
+//       `ATM & OOP Concepts`,
+//       `Calculator & To Do APP`,
+//       `Word Counter & Quiz`,
+//     ],
+//     // remark: 'Try them on your CLI.',
+//     gradient: " bg-gradient-to-br from-blue-light to-grey-white",
+//     GithubRepo: "https://github.com/mjunaidca/TypeScript-Node-Projects",
+//   },
+//   {
+//     title: `Panavere DAO Site & Styling Projects`,
+//     brief: `Developed Panaverse DAO website design in Figma, & created frontend in:`,
+//     points: [`Chakra UI + NextJS 13`, `Tailwind CSS + NextJS`],
+//     remark: "For practice created NextJS styling projects.",
+//     gradient: " bg-gradient-to-br from-purple-light to-pink-white",
+//     GithubRepo: "https://github.com/mjunaidca/PanaFig-1.0",
+//   },
+//   {
+//     title: `AI Image Generator`,
+//     brief: `Development of an AI Image Generator Runtime App with:`,
+//     points: [
+//       `NextJS 13 framwork`,
+//       `Tailwind CSS`,
+//       `Headless UI`,
+//       `Open AI API`,
+//     ],
+//     remark: "Developed together with Muhammad Ahmad",
+//     gradient: " bg-gradient-to-br from-pink-light to-yellow-light",
+//     GithubRepo: "https://github.com/mjunaidca/image-ai",
+//   },
+// ];
 
 export const MyAcheivments = [
   {
