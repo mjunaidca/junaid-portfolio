@@ -5,7 +5,8 @@ import Wrapper from "@/components/Wrapper";
 
 const getAcheivments = async () => {
   const res = await fetch(
-    `https://cdn.contentful.com/spaces/${process.env.CONTENTFUL_SPACE_ID}/entries?access_token=${process.env.CONTENTFUL_DELIVERY_API}&content_type=mjsAcheivments`
+    `https://cdn.contentful.com/spaces/${process.env.CONTENTFUL_SPACE_ID}/entries?access_token=${process.env.CONTENTFUL_DELIVERY_API}&content_type=mjsAcheivments`,
+    { cache: "no-store" }
   );
   if (!res.ok) {
     throw new Error("Unable to get Acheivments data from contentful");
